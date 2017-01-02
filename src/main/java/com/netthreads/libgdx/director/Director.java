@@ -29,7 +29,6 @@ import com.badlogic.gdx.scenes.scene2d.Group;
 import com.badlogic.gdx.utils.Disposable;
 import com.badlogic.gdx.utils.viewport.StretchViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
-import com.google.inject.Singleton;
 import com.netthreads.libgdx.event.ActorEvent;
 import com.netthreads.libgdx.event.ActorEventObserver;
 import com.netthreads.libgdx.event.ActorEventSource;
@@ -44,7 +43,6 @@ import com.netthreads.libgdx.tween.GroupAccessor;
  * height.
  * 
  */
-@Singleton
 public class Director implements Disposable
 {
 	private static final float DEFAULT_CLEAR_COLOUR_RED = 0.0f;

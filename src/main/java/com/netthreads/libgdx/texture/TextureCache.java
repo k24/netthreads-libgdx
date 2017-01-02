@@ -28,13 +28,11 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.utils.Disposable;
-import com.google.inject.Singleton;
 
 /**
  * Represents a generic texture cache backed by the {@link TextureAtlas}.
  * 
  */
-@Singleton
 public class TextureCache implements Disposable
 {
 	private TextureAtlas textureAtlas = null;

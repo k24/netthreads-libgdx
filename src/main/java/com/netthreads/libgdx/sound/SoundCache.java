@@ -19,21 +19,19 @@
 
 package com.netthreads.libgdx.sound;
 
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.audio.Sound;
+import com.badlogic.gdx.utils.Disposable;
+
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.audio.Sound;
-import com.badlogic.gdx.utils.Disposable;
-import com.google.inject.Singleton;
-
 /**
  * Cache of sound objects.
  * 
  */
-@Singleton
 public class SoundCache implements Disposable
 {
 	private Map<String, Sound> data;
